@@ -75,9 +75,9 @@ $(document).ready(function(){
 
     
       $(".clickPrevent").click(function(){
-        $("li").hide();
+        $(".l1").hide();
       });
-      $(".clickPrevent li").click(function(e){
+      $(".clickPrevent .l1").click(function(e){
         e.stopPropagation();
       });
 
