@@ -98,7 +98,12 @@ $(document).ready(function(){
         type : "DELETE",
         success: function(result){
             $('.removeMe').remove();
-        }});
+        },
+        error: function(request,msg,error) {
+          console.log("Request Failed");
+          $('.removeMe').remove();
+        }
+       });
       });
 
     var width = 720;
