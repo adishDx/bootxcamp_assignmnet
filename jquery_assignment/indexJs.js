@@ -138,4 +138,16 @@ $(document).ready(function(){
     startSlider();
 
 
+    var max = 0
+    $('body').children().each((i, val) => {
+        ht = $(val).height() 
+        if (ht > max) {
+            max = ht
+        }
+});
+$('#max-height').html(max);
+
+
   });
+
+
