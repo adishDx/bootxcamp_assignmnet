@@ -5,6 +5,8 @@ public class Customer {
     private float cash;
     private int token;
     private int coffeeQuantity;
+//    private Cashier cs;
+//    private Barista bs;
 
     public Customer(String name, Boolean orderStatus, float cash, int token, int coffeeQuantity) {
         this.name = name;
@@ -12,7 +14,25 @@ public class Customer {
         this.cash = cash;
         this.token = token;
         this.coffeeQuantity = coffeeQuantity;
+//        this.cs = cs;
+//        this.bs = bs;
     }
+
+//    public Cashier getCs() {
+//        return cs;
+//    }
+//
+//    public void setCs(Cashier cs) {
+//        this.cs = cs;
+//    }
+//
+//    public Barista getBs() {
+//        return bs;
+//    }
+//
+//    public void setBs(Barista bs) {
+//        this.bs = bs;
+//    }
 
     public String getName() {
         return name;
