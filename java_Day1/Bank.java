@@ -1,9 +1,9 @@
 public class Bank {
 
-    String branch;
-    float roi;
-    int totalEmp;
-    Address address;
+    private String branch;
+    private float roi;
+    private int totalEmp;
+    private Address address;
 
     Bank(){}
 
