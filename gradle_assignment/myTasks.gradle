@@ -1,0 +1,3 @@
+ task newTask << {
+     println "Hello NewTask"
+ }
